@@ -3,15 +3,15 @@ package com.tanmay.DSA.string;
 public class String1 {
 
     public static void main(String[] args) {
-        String str = "HelloWorld";
-        System.out.println(str.length());
-        System.out.println(str.charAt(0));
-        System.out.println(str.substring(0, 5));
-        System.out.println(str.indexOf('W'));
-        System.out.println(str.contains("World"));
-        System.out.println(str.replace("World", "Java"));
-        System.out.println(str.toLowerCase());
-        System.out.println(str.toUpperCase());
-        System.out.println(str.trim());
+        String str = "HelloWorld ";
+        System.out.println(str.length());  // Output: 11
+        System.out.println(str.charAt(0));  // Output: H
+        System.out.println(str.substring(0, 5));  // Output: Hello
+        System.out.println(str.indexOf('W')); // Output: 5
+        System.out.println(str.contains("World"));  // Output: true
+        System.out.println(str.replace("World", "Java")); // Output: HelloJava
+        System.out.println(str.toLowerCase());  // Output: helloworld
+        System.out.println(str.toUpperCase()); // Output: HELLOWORLD
+        System.out.println(str.trim()); // Output: HelloWorld (no leading or trailing whitespace)
     }
 }
